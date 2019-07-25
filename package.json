@@ -1,0 +1,23 @@
+{
+  "name": "oauth2-dev-server",
+  "version": "0.0.1",
+  "description": "a development server for testing OAUTH2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corntoole/oauth2-dev-server.git"
+  },
+  "author": "cornelius.toole@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corntoole/oauth2-dev-server/issues"
+  },
+  "homepage": "https://github.com/corntoole/oauth2-dev-server#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "oauth2-mock-server": "github:corntoole/oauth2-mock-server#change-token-handler-path"
+  }
+}
